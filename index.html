@@ -1,0 +1,118 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="info">
+                <h1 class="info-title">
+                    jane doe
+                </h1>
+                <ul class="info-group">
+                    <li class="info-item">
+                        <img src="images/mail_icon.png" alt="">
+                        <p>jdoe@gmail.com</p>
+                    </li>
+                    <li class="info-item">
+                        <img src="images/telephone_icon.png" alt="">
+                        <p>+212664945127</p>
+                    </li>
+                </ul>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="#">about me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">recommendations</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="about-me">
+            <hr>
+            <div class="about-details">
+                <img src="images/developer.png" alt="">
+                <div class="about-content">
+                    <h2 class="about-title">
+                        hi, i'm jane doe! 👋
+                    </h2>
+                    <p class="about-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea perspiciatis est, reiciendis
+                        recusandae maxime porro mollitia dicta harum eius, saepe, quod incidunt! Optio ex quos pariatur
+                        nesciunt ducimus autem perferendis.
+                        Doloribus enim reprehenderit repellendus voluptate, accusamus non. Reiciendis accusantium
+                        repudiandae, dolorem, magnam voluptatum molestias molestiae id quos earum adipisci nostrum illo
+                        et recusandae illum maiores reprehenderit eaque? A, placeat! Aliquam.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <main class="skills">
+            <hr>
+            <div class="skills-cards">
+
+            </div>
+        </main>
+        <div class="projects">
+            <hr>
+            <div class="project-details">
+                <h1 class="project-title">projects</h1>
+                <div class="project-content">
+
+                </div>
+            </div>
+
+        </div>
+        <div class="recommendations">
+            <hr>
+            <div class="recommendation-details">
+                <h1 class="recommendation-title">recommendations</h1>
+                <div class="recommendation-cards">
+                </div>
+            </div>
+        </div>
+        <div class="home">
+            <button><img src="/images/arrow-up.png" alt=""></button>
+        </div>
+        <div class="recommendations-form">
+            <hr>
+            <form class="form-submit">
+                <fieldset>
+                    <legend>leave recommendation</legend>
+                    <input type="text" id="name" placeholder="name (optional)">
+                    <textarea id="message" placeholder="message"></textarea>
+                    <button>submit</button>
+                    <div class="message">
+
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="submited">
+            <div class="passed">
+                <i class="passed-check" data-lucide="circle-check"></i>
+                <p class="passed-text">thanks for leaving a recommendation !</p>
+                <button class="passed-btn">close</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+    lucide.createIcons();
+</script>
+
+</html>

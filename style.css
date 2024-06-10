@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    margin: 10px auto;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: blueviolet;
+    padding: 10px;
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.info-title{
+    text-transform: capitalize;
+}
+
+.info-item{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.info-item img{
+    width: 25px;
+    margin-right: 15px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    margin: 0 15px;
+    text-transform: capitalize;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}
+.nav-item a:hover{
+    color: rgb(167, 166, 166);
+    text-decoration: underline;
+}
+
+hr{
+background: blueviolet;
+height: 1px;
+border: none;
+margin: 60px 0;
+max-width: 90%;
+width: 100%;
+text-align: center;
+}
+
+.about-me{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-details{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 70%;
+}
+
+.about-details img{
+    width: 35%;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+
+.about-title{
+    text-transform: capitalize;
+    color: blueviolet;
+    font-size: 50px;
+}
+
+.about-content{
+    margin-top: 50px;
+}
+
+.about-text{
+    color: gray;
+    font-weight: 600px;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-cards{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 130px;
+}
+
+.skill-item{
+    box-shadow: 1px 1px 10px 1px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.skill-item img{
+width:50px;
+}
+
+.projects{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+}
+
+.project-details{
+    width: 100%;
+    max-width: 1500px;
+}
+
+.project-details .project-title{
+    text-align: left;
+    text-transform: capitalize;
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.project-content{
+    margin: 30px 0 auto 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;    
+}
+
+.project-item{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;    
+}
+
+.project-item ul{
+list-style-type: disc;
+margin-left: 50px;
+}
+
+.project-item h3{
+    text-transform: capitalize;
+}
+
+.recommendations{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recommendation-details{
+    width: 100%;
+    max-width: 1500px;
+}
+
+.recommendation-title{
+    text-align: left;
+    text-transform: capitalize;
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.recommendation-cards{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 80px;
+}
+
+.recommendation-item{
+    font-weight: 600;
+    box-shadow: 1px 1px 10px 1px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.home{
+    width: fit-content;
+}
+
+.home button{
+    background: blueviolet;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    padding: 10px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.recommendations-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+
+
+}
+
+.recommendations-form form{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.recommendations-form fieldset legend{
+    font-weight: 900;
+color: blueviolet;
+font-size: 25px;
+    text-transform: capitalize;
+}
+
+.recommendations-form fieldset{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    border: .5px solid blueviolet;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.recommendations-form input,.recommendations-form textarea {
+    width: 100%;
+    padding: 8px;
+    outline: 0;
+    border: .5px solid blueviolet;
+    border-radius: 5px;
+}
+.recommendations-form input::placeholder,.recommendations-form textarea::placeholder {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.recommendations-form button {
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: blueviolet;
+    font-size: 15px;
+    border-radius: 8px;
+    outline: 0;
+    border:blueviolet solid .5px;
+    background:transparent;
+    width: 50%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.recommendations-form button:hover {
+    background:blueviolet;
+color: white;
+cursor: pointer;
+}
+
+.message{
+    display: none;
+}
+
+.success{
+    align-items: center;
+    text-transform: capitalize;
+    color: rgb(6, 136, 17);
+    font-size: 15px;
+    font-weight: 600;
+    background: rgba(71, 145, 3, 0.753);
+    padding: 5px;
+    width: 100%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.error{
+    align-items: center;
+    text-transform: capitalize;
+    color: rgb(236, 180, 180);
+    font-size: 15px;
+    font-weight: 600;
+    background: rgba(185, 1, 1, 0.753);
+    padding: 5px;
+    width: 100%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.error img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.passed{
+    color: blueviolet;
+    background: rgb(193, 147, 236);
+    padding: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    bottom: 150px;
+}
+
+.submited{
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.passed-text{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.passed-btn{
+    background:rgb(116, 59, 168);
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(202, 146, 255);
+    text-transform: capitalize;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
